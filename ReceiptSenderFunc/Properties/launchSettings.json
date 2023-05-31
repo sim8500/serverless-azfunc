@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "ReceiptSenderFunc": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7001",
+      "serviceUrl" :  "http://localhost:7001"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 30373,
+      "useSSL": false
+    }
+  }
+}

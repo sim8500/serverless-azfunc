@@ -1,0 +1,15 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "QueueConfig__MainQueueName": "receipts",
+    "QueueConfig__RetryQueueName": "error-receipts",
+    "MessageRedirectConfig__MaxRetryCount": "3",
+    "MessageRedirectConfig__TargetQueueName": "error-receipts",
+    "ReceiptSenderConfig__SenderAddress": "test@email",
+    "ReceiptSenderConfig__SenderName": "Tester",
+    "SendGrid__ApiKey": "QWERTYZ",
+    "APPLICATIONINSIGHTS_CONNECTION_STRING": "QWERTYZ"
+  }
+}
